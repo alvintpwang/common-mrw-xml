@@ -924,6 +924,7 @@
     <attribute><id>HDAT_HBRT_NUM_SECTIONS</id></attribute>
     <attribute><id>HDAT_HBRT_SECTION_SIZE</id></attribute>
     <attribute><id>VPD_REC_NUM</id></attribute>
+    <attribute><id>EEPROM_VPD_PRIMARY_INFO</id></attribute>
 </targetType>
 
 <!-- chip-tpm-cectpm -->
