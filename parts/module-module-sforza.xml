@@ -5,6 +5,7 @@
     <is_root>false</is_root>
     <instance_name>mcbist0</instance_name>
     <position>-1</position>
+    <child_id>vpd_assoc_child</child_id>
     <child_id>mcs0</child_id>
     <child_id>mcs1</child_id>
     <attribute>
@@ -439,6 +440,7 @@
     <is_root>false</is_root>
     <instance_name>mcs0</instance_name>
     <position>-1</position>
+    
     <child_id>mca0</child_id>
     <child_id>mca1</child_id>
     <attribute>
@@ -2232,6 +2234,36 @@
       <default></default>
     </attribute>
   </targetPart>
+  
+    <targetPart>
+    <id>vpd_assoc_child</id>
+    <attribute>
+      <id>ASSOCIATION_TYPE</id>
+      <default>VPD</default>
+    </attribute>
+    <attribute>
+      <id>BUS_TYPE</id>
+      <default>LOGICAL_ASSOCIATION</default>
+    </attribute>
+    <attribute>
+      <id>CHIP_UNIT</id>
+      <default>0</default>
+    </attribute>
+    <attribute>
+      <id>DIRECTION</id>
+      <default>IN</default>
+    </attribute>
+    <attribute>
+      <id>TYPE</id>
+      <default>NA</default>
+    </attribute>
+    <instance_name>vpd_assoc_child</instance_name>
+    <is_root>false</is_root>
+    <parent>unit</parent>
+    <position>-1</position>
+    <type>unit-logic_assoc-generic</type>
+  </targetPart>
+  
   <targetPart>
     <id>mca0</id>
     <type>unit-mca-nimbus</type>
@@ -2972,6 +3004,7 @@
     <is_root>false</is_root>
     <instance_name>mcs1</instance_name>
     <position>-1</position>
+    <child_id>vpd_assoc_child</child_id>
     <child_id>mca2</child_id>
     <child_id>mca3</child_id>
     <attribute>
